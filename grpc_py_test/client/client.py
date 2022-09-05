@@ -1,6 +1,5 @@
 import grpc
-from proto import helloworld_pb2, helloworld_pb2_grpc
-
+from grpc_py_test.proto import helloworld_pb2, helloworld_pb2_grpc
 
 if __name__ == '__main__':
     with grpc.insecure_channel("localhost:50051") as channel:

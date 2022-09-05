@@ -1,6 +1,6 @@
 import grpc
 from concurrent import futures
-from proto import helloworld_pb2, helloworld_pb2_grpc
+from grpc_py_test.proto import helloworld_pb2, helloworld_pb2_grpc
 
 
 class Greeter(helloworld_pb2_grpc.GreeterServicer):
